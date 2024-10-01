@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>心情追蹤日記_設計規範</title>
+    <!--枚的css-->
+    <link rel="stylesheet" href="./css/styleguide.css" />
+    <link rel="shortcut icon" href="./img/red_icon.png" type="image/x-icon" />
+    <!--bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!--劉家妤的css-->
+    <link href="./css/main_Home.css" rel="stylesheet" />
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap"
+      rel="stylesheet"
+    />
+    <!--boostrap覆蓋-->
+    <link rel="stylesheet" href="./css/boostrap.css" />
+    <link rel="stylesheet" href="./css/banner.css" />
+    <!--navbar-->
+    <link rel="stylesheet" href="./css/navbar.css" />
+  </head>
+
+  <body>
+    <!--內容區塊-->
+    <div class="wrapper">
+      <!--navbar-->
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <a href="#" class="brand-logo">
+            <img src="./img/main icon.jpg" width="128px" />
+          </a>
+          <ul>
+            <li>
+              <a href="/Home_1/index.html"> 心情日記 </a>
+            </li>
+            <li>
+              <a href="">設計規範</a>
+            </li>
+            <li>
+              <a href="/Home_3/index.html"> 團隊介紹 </a>
+            </li>
+          </ul>
+
+          <ul class="download">
+            <li>
+              <a href="#">
+                <img src="./img/download_icon.jpg" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--navbar end-->
+      <!--banner start-->
+      <div id="banner">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="true"
+        >
+          <div class="carousel-indicators" id="indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner-2">
+            <div class="carousel-item active">
+              <img src="./img/banner2.png" class="d-block w-100" />
+            </div>
+            <div class="carousel-item">
+              <img src="./img/banner-3.png" class="d-block w-100" />
+            </div>
+            <div class="carousel-item">
+              <img src="./img/banner-1.png" class="d-block w-100" />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <!--banner end-->
+      <!--枚的頁面-->
+      <div class="intro">
+        <div class="title">
+          <h2>關於心情追蹤日記</h2>
+        </div>
+        <div class="text">
+          <h3>
+            現代人生活忙碌，心情追蹤日記讓使用者過完忙碌的一天後，可以留一點時間給自己，
+            紀錄當天的心情和生活瑣事功能分為月份總覽、每日日記、心情趨勢圖表分析，還可以設定密碼、黑夜模式等等，讓使用起來隨心所欲!
+          </h3>
+        </div>
+      </div>
+      <div class="styleguide">
+        <div class="title02">
+          <h1>設計規範</h1>
+        </div>
+        <div class="bg-img">
+          <img src="./img/bg_line.png" height="3030px" />
+        </div>
+        <div class="main-content">
+          <div class="typography">
+            <ul>
+              <li class="typography-intro">
+                <div class="typography-title">
+                  <h2>Typography</h2>
+                </div>
+                <div class="typography-text">
+                  <h4>
+                    使用圓潤可愛的粉圓體，<br />
+                    希望帶給使用者輕鬆活潑的感受
+                  </h4>
+                </div>
+              </li>
+              <li class="typography-img">
+                <img src="./img/typography.png" width="311px" />
+              </li>
+            </ul>
+          </div>
+          <div class="color">
+            <ul>
+              <li class="color-intro">
+                <div class="color-title">
+                  <h2>Color</h2>
+                </div>
+                <div class="color-text">
+                  <h4>
+                    使用明亮輕快的色彩，<br />希望帶給使用者愉快的體驗過程
+                  </h4>
+                </div>
+              </li>
+              <li class="color-img">
+                <img src="./img/color.png" width="530px" />
+              </li>
+            </ul>
+          </div>
+          <div class="icons">
+            <ul>
+              <li class="icons-intro">
+                <div class="icons-title">
+                  <h2>Icons</h2>
+                </div>
+              </li>
+              <li class="icons-img">
+                <img src="./img/icons.png" width="518px" />
+              </li>
+            </ul>
+          </div>
+          <div class="components">
+            <ul>
+              <li class="components-intro">
+                <div class="components-title">
+                  <h2>Components</h2>
+                </div>
+              </li>
+              <li class="components-img">
+                <div class="tabbar">
+                  <div class="tabbar-intro">
+                    <h3>Tab Bar</h3>
+                  </div>
+                  <div class="tabbar-img">
+                    <img src="./img/tabbar.png" width="547px" />
+                  </div>
+                </div>
+                <div class="buttons">
+                  <div class="buttons-intro">
+                    <h3>Buttons</h3>
+                  </div>
+                  <div class="buttons-img">
+                    <img src="./img/buttons.png" width="531px" />
+                  </div>
+                </div>
+                <div class="CandT">
+                  <ul>
+                    <li class="checkboxes">
+                      <div class="checkboxes-intro">
+                        <h3>Checkboxes</h3>
+                      </div>
+                      <div class="checkboxes-img">
+                        <img src="./img/checkboxes.png" width="69.55px" />
+                      </div>
+                    </li>
+                    <li class="toggles">
+                      <div class="toggles-intro">
+                        <h3>Toggles</h3>
+                      </div>
+                      <div class="toggles-img">
+                        <img src="./img/toggles.png" width="203.1px" />
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="popup">
+                  <div class="popup-intro">
+                    <h3>Pop Up</h3>
+                  </div>
+                  <div class="popup-img">
+                    <img src="./img/popup.png" width="294px" />
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--內容區塊end-->
+
+    <!--footer-->
+    <footer class="footer">
+      <ul>
+        <li>© MoodTrackerDiary Corporation</li>
+        <li>
+          <a href="#">
+            <img src="./img/main icon.jpg" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./img/download_appstore.jpg" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./img/download_google.jpg" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./img/facebook_social_link.jpg" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./img/ins_social_link.jpg" />
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <!--footer end-->
+    <!--置頂-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <!--置頂end-->
+    <!--js-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!--置頂js-->
+    <script>
+      //Get the button
+      var mybutton = document.getElementById("myBtn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+  </body>
+</html>

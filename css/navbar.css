@@ -1,0 +1,52 @@
+body{
+    font-family: 'Noto Sans TC', sans-serif ;
+    background-color: rgba(255, 255, 255, 0.36);
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin: 0;
+}
+.container-fluid{
+    position: fixed;
+    width: 100vw;
+    height: 133px;
+    background-color: #ffffff;
+    top: 0;
+    left: 0;
+    padding: 0px;
+    z-index: 999;
+}
+/*navbar*/
+.navbar-brand img{
+    width: 128px;
+}
+.container-fluid ul{
+    display:inline-block;
+    width: 100vw;
+    text-align:center;
+    padding:0;
+    margin: 50px 0;
+}
+.container-fluid li{
+    display: inline-block;
+    margin: 0 10px;
+
+}
+.container-fluid ul li a{
+    color:rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: 24px;
+    font-family: 'Noto Sans TC', sans-serif;
+    text-decoration:none;
+    margin: 0 66.5px;
+}
+.brand-logo{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.download img{
+    width: 57px;
+    position: absolute;
+    top: 38px;
+    right: 45px;
+}
